@@ -10,7 +10,7 @@ class Lumino:
     def get(self):
         while True:
             try:
-               values = self.source.readline().strip().split(' ')
+               values = map(int, self.source.readline().strip().split(' '))
                if len(values) == 2:
                    return values
             except Exception, e:
