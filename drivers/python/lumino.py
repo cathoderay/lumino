@@ -1,3 +1,4 @@
+import sys
 import serial
 
 
@@ -29,4 +30,4 @@ if __name__ == '__main__':
         try:
             print l.get(), l.geta(), l.getb()
         except KeyboardInterrupt:
-            "Thanks for trying Lumino, ;)"
+            sys.exit(0)
