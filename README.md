@@ -1,4 +1,6 @@
-LUMINO
+Lumino
+======
+
 
 An awesome sensor, =)
 
