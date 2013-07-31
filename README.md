@@ -2,7 +2,7 @@ Lumino
 ======
 
 
-An awesome sensor, =)
+An awesome arduino based input device, =)
 
 
 What you'll find here
